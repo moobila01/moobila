@@ -42,6 +42,47 @@
             max-width: 800px;
             margin: 0 auto;
         }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .button-link {
+            display: inline-block;
+            background-color: #007BFF; /* Bootstrap blue */
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-link:hover {
+            background-color: #0056b3; /* Darker blue */
+        }
     </style>
 
     <!-- Schema.org markup -->
@@ -84,7 +125,7 @@
 
         <h2>Why Choose Our SEO Services?</h2>
         <p>In the competitive landscape of Los Angeles, standing out in the digital space requires more than just a basic understanding of SEO. Our team of experts brings years of experience, in-depth knowledge, and a passion for helping businesses succeed online. We stay ahead of the curve by continuously adapting to the latest search engine algorithms and industry trends, ensuring your website always performs at its best.</p>
-
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cv9GXPyqQRA?si=gVPLyMRFKyxALF2a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <h2>Comprehensive SEO Solutions</h2>
         <p>Our SEO services cover every aspect of optimization, including:</p>
         <h3>Keyword Research</h3>
@@ -151,6 +192,7 @@
         <p>Ready to get started? Contact us today to schedule a consultation and learn more about how our SEO services can benefit your business in Los Angeles. We're here to answer any questions you may have and provide the guidance you need to succeed online.</p>
 
         <p>Don't let your competitors outrank you – invest in professional SEO services and watch your business grow. Together, we can achieve great things in the world of digital marketing.</p>
+   <center></center><a href="https://moobila.com/contact-us/" class="button-link">Contact US</a></center>
     </div>
 </body>
 
